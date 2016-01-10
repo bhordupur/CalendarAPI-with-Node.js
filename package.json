@@ -1,0 +1,13 @@
+{
+  "name": "calendar",
+  "description": "Calendar REST API with Node",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "mongoose": "^4.1.10"
+  }
+}
