@@ -84,10 +84,10 @@ exports.deleteAll = function(req, res) {
 
 exports.import = function(req, res) {
 	Event.create(
-		{ "title": "Assignment1", "description": "A school assignment", "tags": ["uni"], "start": "2015-11-05T22:00:00Z" , "end": "2015-11-05T22:00:00Z", "venue": "Cs-Building" },
-		{ "title": "Parents", "description": "Parents are visiting", "tags": ["private"], "start": "2015-11-11T22:00:00Z" , "end": "2015-11-18T22:00:00Z", "venue": "Helsinki" },
+		{ "title": "Name A", "description": " Name A ", "tags": ["uni"], "start": "2015-11-05T22:00:00Z" , "end": "2015-11-05T22:00:00Z", "venue": "Cs-Building" },
+		{ "title": "Name B", "description": "Name B", "tags": ["private"], "start": "2015-11-11T22:00:00Z" , "end": "2015-11-18T22:00:00Z", "venue": "Helsinki" },
 		{ "title": "Project", "description": "Work project", "tags": ["work"], "start": "2015-12-05T22:00:00Z" , "end": "2015-12-10T22:00:00Z", "venue": "Cs-Building" },
-		{ "title": "Assignment2", "description": "Another school assignment", "tags": ["uni"], "start": "2015-11-20T22:00:00Z" , "end": "2015-11-20T22:00:00Z", "venue": "Cs-Building" }
+		{ "title": "Mini-Project", "description": "A mini project", "tags": ["uni"], "start": "2015-11-20T22:00:00Z" , "end": "2015-11-20T22:00:00Z", "venue": "Cs-Building" }
 		, function(err) {
 			if (err) return console.log(err);
 			return res.send(202);
