@@ -34,6 +34,7 @@ require('./routes')(app);
 
 // Google Calendar:
 var clientID = "139393676124-6n6io89dqq37ros4c1jckai93k4l5a4l.apps.googleusercontent.com";
+//Fake Secret key
 var clientSecret = "djvnX0Y43LLXlSIkuqSJiINr-Fz";
 
 app.listen(8080);
